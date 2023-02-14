@@ -13,30 +13,86 @@
 </head>
 <body> 
     <div class="container">
-        <header class="row altura1">
-            <div class="col-xl-12 col-md-12 col-sd-12">
-                <h2>soy header</h2>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </header>
-        <nav class="row altura2">
-            <div class="col-xl-12 col-md-12 col-sd-12">
-                <h2>Soy nav</h2>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="multimedia/IMAGES/wslider.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/IMAGES/slider.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="multimedia/IMAGES/slider2.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-        </nav>
-        <div class="row altura3">
-            <section class="col-xl-8 col-md-8 col-sd-12">
-                <h2>soy section</h2>
-                <article class="altura5">
-                    <h3>Soy article</h3>
-                </article>
-            </section>
-            <aside class=" col-xl-4 col-md-4 col-sd-12">
-                <h2>soy aside</h2>
-            </aside>
-        </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+          
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+            <div class="row altura3">
+                <section class="dos col-xl-8 col-md-8 col-sd-12">
+                    <h2>soy section</h2>
+                    <article class="altura5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur odio consectetur, sit necessitatibus eaque illo. Odit, minima nobis numquam laboriosam nihil aut quod totam fuga temporibus quas cumque error eius qui odio. Iure beatae quam sint veritatis excepturi similique incidunt dolore. Doloribus maiores est velit quas voluptas libero minus ab saepe sint soluta? Labore velit impedit, at officiis rem est delectus numquam magni, aut expedita omnis culpa voluptatibus earum ipsum ad! Ipsam eligendi neque minus earum! Dolorum dolore quos placeat, iusto amet neque ea quae quam ipsa laboriosam molestias sunt eveniet totam animi aperiam alias nulla nostrum aut. Corporis neque similique hic debitis. Dolorem nam necessitatibus maiores aliquid excepturi architecto sed itaque provident optio perferendis in, distinctio ut voluptate aut hic quos saepe. Quos incidunt dolorem, non nesciunt deserunt a obcaecati aspernatur blanditiis asperiores earum repudiandae commodi quod praesentium quibusdam quia? Similique impedit ut sunt facere reiciendis temporibus a.</p>
+                    </article>
+                </section>
+                <aside class=" col-xl-4 col-md-4 col-sd-12">
+                    <img src="multimedia/IMAGES/7502e889a44def58786b7c39235da413.png" alt="" width="100%"> 
+                </aside>
+            </div>
+            
         <footer class="row altura4">
             <div class="col-xl-12 col-md-12 col-sd-12">
-                <h2>Soy footer</h2>
+                <h6>Derechos reservados</h6>
             </div>
         </footer>
     </div>
