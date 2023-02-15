@@ -10,24 +10,7 @@ body {
     
 }
 
-.altura1 {
-    height: 10vh;
-}
 
-.altura2 {
-    height: 10vh;
-}
-
-.altura3 {
-    height: 70vh;
-}
-
-.altura4 {
-    height: 10vh;
-}
-.altura5 {
-    height:60vh;
-}
 section .dos {
     display: flex;
     justify-content: center;
